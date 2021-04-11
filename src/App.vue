@@ -8,19 +8,19 @@
           v-for="item in menu"
           :key="item.title"
           :to="item.url"
-          flat
+          text
           text 
           rounded
           dark
         >{{ item.title }}</v-btn>
-        <v-btn flat dark text rounded v-if="!authenticated"
+        <v-btn text dark text rounded v-if="!authenticated"
                 @click="login">Log in
         </v-btn>
-        <v-btn flat dark text rounded v-if="!authenticated"
+        <v-btn text dark text rounded v-if="!authenticated"
                 @click="signup">Sign up
         </v-btn>
         
-        <v-btn flat dark text rounded v-if="authenticated"
+        <v-btn text dark text rounded v-if="authenticated"
                 @click="logout">Log Out
         </v-btn>
       </div>
@@ -51,9 +51,9 @@
       </v-menu>
       </div>
     </v-app-bar>
-    <v-content>
+    <v-main>
       <router-view/>
-    </v-content>
+    </v-main>
   </v-app>
 
 </template>

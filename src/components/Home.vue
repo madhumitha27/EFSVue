@@ -2,7 +2,7 @@
   <v-main>
     <v-container fluid>
       <v-row>
-        <v-col align="center" justify="center" cols="12">
+        <v-col  color="blue--text" align="center" justify="center" cols="12">
           <blockquote>
             &#8220;Welcome {{validUserName}}!&#8221;
             <footer>
@@ -42,7 +42,7 @@
                       </div>  
                     </v-card-text>
                     <v-card-actions>
-                      <v-btn flat color="orange" @click="viewCustomers">View Details</v-btn>
+                      <v-btn text color="blue" @click="viewCustomers">View Details</v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-col>
@@ -57,7 +57,7 @@
                       </div>  
                     </v-card-text>
                     <v-card-actions>
-                      <v-btn flat color="orange" @click="viewInvestments">View Details</v-btn>
+                      <v-btn text color="blue" @click="viewInvestments">View Details</v-btn>
                     </v-card-actions>
                   </v-card>
                 </v-col>
@@ -72,7 +72,7 @@
                       </div>  
                     </v-card-text>
                     <v-card-actions>
-                      <v-btn flat color="orange" @click="viewStocks">View Details</v-btn>
+                      <v-btn text color="blue" @click="viewStocks">View Details</v-btn>
                     </v-card-actions>
                   </v-card> 
                 </v-col>
@@ -87,7 +87,7 @@
                       </div>  
                     </v-card-text>
                     <v-card-actions>
-                      <v-btn flat color="orange" @click="viewFunds">View Details</v-btn>
+                      <v-btn text color="blue" @click="viewFunds">View Details</v-btn>
                     </v-card-actions>
                   </v-card> 
                 </v-col>
