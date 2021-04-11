@@ -1,7 +1,7 @@
 /* eslint-disable */
 import axios from 'axios';
 // const API_URL = 'http://localhost:8000'; /* http://groyce.pythonanywhere.com or http://localhost:8000 */
-const API_URL = 'http://efsrestweb.herokuapp.com';
+const API_URL = 'https://efsrestweb.herokuapp.com';
 export class APIService {
   constructor() {
 
